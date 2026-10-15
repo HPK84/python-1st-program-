@@ -1,0 +1,2 @@
+s={'python':25,'cpp':26,'evs':27,'maths':28,'yoga':29,'se':24,'java':28}
+print(s)
