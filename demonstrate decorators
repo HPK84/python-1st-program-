@@ -1,0 +1,11 @@
+def decor(func):
+    def show():
+        print("Hello")
+        func()
+    return show
+
+@decor
+def display():
+    print("Python")
+
+display()
