@@ -1,0 +1,7 @@
+import re
+passward=str(input("enter passward"))
+a=r"^[A-Z a-z 0-9]{8}$"
+if(re.match(passward)):
+    print("valid passward")
+else:
+    print("invalid passward")
