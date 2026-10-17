@@ -1,0 +1,5 @@
+import itertools
+
+r = itertools.repeat("BCS(B)", 4)
+
+print(list(r))
