@@ -1,0 +1,7 @@
+import re
+adhar=input("enter adhar no:")
+pattern=r"^[2-9][0-9]{3}\s?[0-9]{4}\s?[0-9]{4}$"
+if re.match (pattern,adhar):
+    print("valid adhar no")
+else:
+    print("invalid adhar no")
