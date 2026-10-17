@@ -1,0 +1,2 @@
+s="my college name is Gfcct"
+print(s.index("Gfcct")+5)
