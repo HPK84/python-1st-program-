@@ -1,0 +1,7 @@
+from itertools import tee
+
+a = [10, 20, 30]
+i, j = tee(iter(a), 2)
+
+print(list(i))
+print(list(j))
