@@ -1,0 +1,11 @@
+import itertools
+
+subjects = ['CPP', 'English', 'EVS', 'Maths', 'Yoga', 'Java']
+
+theory = ['CPP', 'English', 'EVS', 'Maths']
+practical = ['Yoga', 'Java']
+
+data = sorted(subjects, key=lambda x: x in practical)
+
+for k, v in itertools.groupby(data, key=lambda x: x in practical):
+    print("Practical:" if k else "Theory:", list(v))
