@@ -1,0 +1,5 @@
+import itertools
+
+gmail = "rahul123@gmail.com"
+
+print(list(itertools.permutations(gmail, 1)))
