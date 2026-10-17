@@ -1,0 +1,8 @@
+d = {'Python':27, 'CPP':25, 'Maths':25, 'CSS':25}
+
+i = iter(d.items())
+
+print(next(i))
+print(next(i))
+print(next(i))
+print(next(i))
