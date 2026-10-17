@@ -1,0 +1,10 @@
+from functools import reduce
+
+L = [1,2,3,4,5,6,7,8,9,10]
+
+t = filter(lambda a: a%2!=0, L)
+s = map(lambda a: a*a, t)
+
+r = reduce(lambda x,y: x+y, s)
+
+print(r)
