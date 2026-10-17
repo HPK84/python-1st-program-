@@ -1,0 +1,11 @@
+class Demo:
+    def __init__(self, a):
+        self.a = a
+
+    def __add__(self, other):
+        return self.a + other.a
+
+x = Demo(10)
+y = Demo(20)
+
+print(x + y)
