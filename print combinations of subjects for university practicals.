@@ -1,0 +1,7 @@
+import itertools
+
+L = ['CPP', 'Python', 'Java', 'DBMS']
+
+P = itertools.combinations(L, 2)
+
+print(list(P))
