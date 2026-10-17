@@ -1,0 +1,16 @@
+import itertools
+
+L = {'Python': 24, 'English': 26, 'CPP': 25,
+     'IKS': 27, 'Java': 26, 'Yoga': 29,
+     'CSS': 27, 'EVS': 30}
+
+L2 = {'Python': 30, 'English': 21, 'CPP': 27,
+      'OS': 23, 'Maths': 24, 'Yoga': 25,
+      'CSS': 27, 'EVS': 22}
+
+d = L.items()
+d1 = L2.items()
+
+a = itertools.chain(d, d1)
+
+print(list(a))
