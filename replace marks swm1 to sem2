@@ -1,0 +1,5 @@
+sem_marks=75
+print("1st sem python marks:",sem_marks)
+sem2_marks=76
+sem_marks=sem2_marks
+print("after replace to 2nd sem:",sem_marks)
