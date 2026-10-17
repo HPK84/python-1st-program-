@@ -1,0 +1,5 @@
+def s(**k):
+    print(type(k))
+    for key, v in k.items():
+        print(f"{key}={v}")
+s(cpp=26, python=20, math=21, java=22, evs=17, yoga=20)
