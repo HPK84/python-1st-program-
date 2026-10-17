@@ -1,0 +1,8 @@
+import itertools
+
+s = "GFFCC"
+l = [True, True, True, False, False]
+
+a = itertools.compress(s, l)
+
+print(list(a))
