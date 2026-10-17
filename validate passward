@@ -1,0 +1,10 @@
+import re
+passward = input("enter passward:")
+if len(passward)<8:
+    print("invalid:passward should be minimum 8 characters")
+elif not re.search(r"[A-Z]",passward):
+    print("invalid:passward should have one uppercase character")
+elif not re.search(r"\d",passward):
+    print("invalid:passward should have at least one special character")
+else:
+    print("valid passward")
