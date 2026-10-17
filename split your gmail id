@@ -1,0 +1,8 @@
+email=input("enter your gmail id:")
+if"@"in email:
+    username,domain=email.split("@")
+    print(f"username:{username}")
+    print(f"domain:{domain}")
+    print(f"full split:{email.split('@')}")
+else:
+    print("invalid email")
