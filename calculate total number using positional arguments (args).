@@ -1,0 +1,4 @@
+def total(*a):
+    print("Total =", sum(a))
+
+total(10, 20, 30)
