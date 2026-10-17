@@ -1,0 +1,7 @@
+import itertools
+
+students = ['Amit', 'Rahul', 'Neha', 'Priya']
+
+batches = itertools.pairwise(students)
+
+print(list(batches))
