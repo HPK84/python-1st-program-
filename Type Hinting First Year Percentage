@@ -1,0 +1,7 @@
+r: float = 89.9
+n: str = "BCS-1"
+
+def per() -> str:
+    return f"My {n} year percentage is {r}"
+
+print(per())
