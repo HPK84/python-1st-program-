@@ -1,0 +1,7 @@
+import re
+email=input("enter email:")
+pattern="^[a-z A-Z 0-9 -%+-]+@[a-z A-Z 0-9]+\[a-z A-Z]{2}$"
+if re.match(pattern,email):
+    print("valid email ID")
+else:
+    print("invalid email ID")
