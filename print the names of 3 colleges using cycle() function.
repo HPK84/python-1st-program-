@@ -1,0 +1,7 @@
+import itertools
+
+r = itertools.cycle(['BSES', 'Nursing', 'BBA'])
+
+print(next(r))
+print(next(r))
+print(next(r))
