@@ -1,0 +1,9 @@
+import csv
+
+with open("student.csv", "w", newline="") as f:
+    writer = csv.writer(f)
+    writer.writerow(["Name", "Marks"])
+    writer.writerow(["Amit", 80])
+    writer.writerow(["Ravi", 90])
+
+print("CSV file created")
