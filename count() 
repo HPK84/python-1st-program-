@@ -1,0 +1,9 @@
+import itertools
+
+r = itertools.count(401, 1)
+
+print(next(r))
+print(next(r))
+print(next(r))
+print(next(r))
+print(next(r))
