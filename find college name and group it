@@ -1,0 +1,5 @@
+import re
+s="my clge name is Gfcct"
+pattern=r"(Gfcct)"
+m=re.search(pattern,s)
+print(m.group(1))
