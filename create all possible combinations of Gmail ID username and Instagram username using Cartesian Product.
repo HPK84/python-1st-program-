@@ -1,0 +1,8 @@
+import itertools
+
+gmail = ['rahul', 'amit']
+insta = ['rahul_123', 'amit_456']
+
+result = itertools.product(gmail, insta)
+
+print(list(result))
